@@ -2,12 +2,10 @@
 
 int main ()
 {
-
-float meter , mile ;
-
-printf("please enter the distance in metter \n");
-scanf (" %f " , &meter);
-printf("the distance in mile is :  %.2f\n", meter/1.609);
-
-return 0 ;
+    float metre,mile,kilometre;
+         printf("entrer la distance en metre");
+         scanf("%f",&metre);
+                kilometre = metre / 1000;
+                mile = kilometre/ 1.609;
+    printf("la distance en mile est :%f",mile);
 }
